@@ -1,0 +1,57 @@
+
+.image:before{
+    content: '';
+    position: absolute;
+    background: url('../../../img/conect.svg');
+    background-repeat: no-repeat;
+    background-size: 110px;
+    background-position: -27px;
+    width: 124px;
+    height: 124px;
+    top: 35px;
+    left: 0px;
+}
+
+.image:first-child:before{
+    content: '';
+    position: absolute;
+    background: url('../../../img/billing.svg');
+    background-repeat: no-repeat;
+    background-size: 110px;
+    background-position: -27px;
+    width: 124px;
+    height: 124px;
+    top: 35px;
+    left: 0px;
+}
+.arrow10:before{
+    font: normal 16px StripeIcons;
+    content: "\279E";
+    padding-left: 6px;
+    color: #73e4a2;
+    right: 315px;
+    position: absolute;
+}
+
+.arrow11:before{
+
+    font: normal 16px StripeIcons;
+    content: "\279E";
+    padding-left: 6px;
+    color: #68d5f8;
+    right: 226px;
+    top: 41px;
+    position: absolute;
+}
+
+.image:hover a{
+    color: #32325d;
+}
+
+.image:nth-child(2) a{
+    color:#3297d3;
+}
+
+.image:hover:nth-child(2) a{
+    color: #32325d;
+}

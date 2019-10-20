@@ -1,0 +1,65 @@
+.Products{
+    display: flex;
+}
+.footer:before{
+content: "";
+position: absolute;
+left: 0;
+right: 0;
+top: -294px;
+z-index: -1;
+height: 300vh;
+bottom: 0;
+background: #f6f9fc;
+}
+
+
+.select_country a{
+    color: #6772e5;
+    font-weight:500;
+}
+.select_language a{
+    color: #6772e5;
+    font-weight:500;
+}
+
+.select_language:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -294px;
+    z-index: 1;
+width: 30px;
+height:30px;
+    bottom: 0;
+    background: url(../../../img/leguage.svg);
+    }
+.space{
+    width: 100px;
+    height: 240px;
+}
+.copyright{
+    flex-grow: 1;
+}
+li.groupHeader a{
+
+    color: #fff;
+    font-size: 17px;
+    padding: 4px 10px;
+
+}
+
+li.groupHeader {
+    margin: 8px 0 0;
+    border-top: 4px solid #32325d;
+}
+li.groupHeader:first-child{
+    border-top: none;
+}
+
+
+
+a:hover {
+    color: #fff;
+  }

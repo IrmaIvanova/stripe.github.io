@@ -1,0 +1,171 @@
+.arrow:before{
+    font: normal 16px StripeIcons;
+    content: "\279E";
+    padding-left: 6px;
+    color:  #6b7c93;
+    right: 0;
+    position: absolute;
+}
+.arrow9:before{
+    font: normal 16px StripeIcons;
+    content: "\279E";
+    padding-left: 6px;
+    color:  #fff;
+    right: 0;
+    top: 3px;
+    position: absolute;
+}
+.arrow9:hover:before{
+
+    color: #c4f0ff;
+
+}
+
+.arrow:hover:before{
+
+    color: #32325d;
+
+}
+.arrow2:before{
+    font: normal 16px StripeIcons;
+    content: "\279E";
+    padding-left: 6px;
+    color: #6772e5;
+    right: 260px;
+    bottom: 126px;
+    position: absolute;
+}
+
+.arrow3:before{
+    font: normal 16px StripeIcons;
+    content: "\279E";
+    padding-left: 6px;
+    color: #6772e5;
+    right: 335px;
+    bottom: -61px;
+    position: absolute;
+}
+.arrow3:hover:before{
+
+    color: #32325d;
+
+}
+.arrow4:before{
+    font: normal 16px StripeIcons;
+    content: "\279E";
+    padding-left: 6px;
+    color: #6772e5;
+    left: 580px;
+    bottom: 100px;
+    position: absolute;
+}
+.arrow4:hover:before{
+
+    color: #32325d;
+
+}
+.arrow5:before{
+    font: normal 16px StripeIcons;
+    content: "\279E";
+    padding-left: 6px;
+    color: #6772e5;
+    left: 1000px;
+    bottom: 44px;
+    position: absolute;
+}
+.arrow5:hover:before{
+
+    color: #32325d;
+
+}
+.arrow7:before{
+    font: normal 16px StripeIcons;
+    content: "\279E";
+    padding-left: 6px;
+    color: #6772e5;
+    left: 172px;
+    bottom: 138px;
+    position: absolute;
+}
+.arrow8:before{
+    font: normal 16px StripeIcons;
+    content: "\279E";
+    padding-left: 6px;
+    color: #6772e5;
+    left: 206px;
+    bottom: 208px;
+    position: absolute;
+}
+
+
+.arrow2:hover:before{
+
+    color: #32325d;
+
+}
+
+.arrow7:hover:before{
+
+    color: #32325d;
+
+}
+.active a {
+    color: #32325d;
+}
+
+a:hover{
+    color:#32325d;
+}
+
+.downloud:before{ 
+    content: '';
+    background-image: url('../../img/download.svg');
+    background-position: 40px 20px;
+    background-size: 20px 20px;
+    /* padding-left: 6px; */
+    color: #6772e5;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 10px;
+}
+
+
+.downloud2:before{ 
+    content: '';
+    background-image: url('../../img/download.svg');
+    background-position: 40px 20px;
+    background-size: 20px 20px;
+    /* padding-left: 6px; */
+    color: #6772e5;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 220px;
+}
+
+
+.conerGray:before{
+    content:'';
+    position: absolute;
+    z-index: -3;
+    background: #f6f9fc;
+    transform: skewY(-12deg);
+    top: 0;
+    bottom: -50px; 
+    right: 850px;
+    left: 0;
+
+}
+
+.conerGrayRight:before{
+    content:'';
+    position: absolute;
+    z-index: -3;
+    background: #f6f9fc;
+    transform: skewY(-12deg);
+    top: -156px;
+    bottom: 0;
+    left: 21px;
+    right: -408px;
+}

@@ -1,0 +1,22 @@
+h3 {
+  color: #32325d;
+}
+
+a {
+  color: #6b7c93;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+}
+
+.introText {
+  color: #424770;
+  font-size: 24px;
+}
+
+.box {
+  width: 500px;
+}
+/*# sourceMappingURL=index.css.map */

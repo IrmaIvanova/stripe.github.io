@@ -1,0 +1,136 @@
+.Grid{
+    display: grid;
+    
+    grid-template-columns: repeat(4, 1fr);
+
+}
+.Accept:after{
+    content:'';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    transform: rotate(45deg);
+    z-index: 2;
+    background: #43458b;
+    left: 230px;
+    top: 30px;
+    border-top-right-radius: 4px;
+}
+.Accept{
+    margin: 10px;
+    grid-column: 1;
+    background: #43458b;;
+    padding: 20px 40px;
+    border-radius: 4px;
+    position: relative; 
+    z-index: 1;
+
+}
+
+
+
+.Process{
+    margin: 10px;
+    grid-column: 2;
+    background: #555abf;
+    padding: 20px 40px;
+    border-radius: 4px;
+    position: relative; 
+    z-index: 1;
+}
+.Process:after{
+    content:'';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    transform: rotate(45deg);
+    z-index: 1;
+    background:  #555abf;
+    left: 230px;
+    top: 30px;
+    border-top-right-radius: 4px;
+}
+.Process:before{
+    content:'';
+    position: absolute;
+    width: 12px;
+    height: 26px;
+    z-index: 2;
+    background:url('../../../img/conerdark.svg');
+    left: 0px;
+    top: 28px;
+
+    border-top-right-radius: 4px;
+}
+.Settle{
+    margin: 10px;
+    grid-column: 3;
+    background: #6772e5;
+    padding: 10px 40px;
+    border-radius: 4px;
+    position: relative;
+    z-index: 1;
+}
+.Settle:after{
+    content:'';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    transform: rotate(45deg);
+    z-index: 1;
+    background:  #6772e5;
+    left: 230px;
+    top: 30px;
+    border-top-right-radius: 4px;
+}
+.Settle:before{
+    content:'';
+    position: absolute;
+    width: 13px;
+    height: 27px;
+    z-index: 2;
+    background: url('../../../img/conerdark.svg');
+    left: -1px;
+    top: 27px;
+}
+.Manage{
+    margin: 10px;
+    grid-column: 4;
+    background: #7795f8;
+    padding: 20px 40px;
+    border-radius: 4px;
+}
+
+.Manage:before{
+    content:'';
+    position: absolute;
+    width: 13px;
+    height: 27px;
+    z-index: 2;
+    background: url('../../../img/conerdark.svg');
+    left: 9px;
+    top: 36px;
+
+    border-top-right-radius: 4px;
+}
+li.groupHeader a{
+
+    color: #fff;
+    font-size: 17px;
+    padding: 4px 10px;
+
+}
+
+li.groupHeader {
+    margin: 8px 0 0;
+    border-top: 4px solid #32325d;
+}
+li.groupHeader:first-child{
+    border-top: none;
+}
+
+
+
+a:hover {
+    color: #fff;
+  }
